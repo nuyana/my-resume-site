@@ -7,46 +7,61 @@
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<header>
-    <div class="header-inner">
-        <span class="role-badge">Linguistics &amp; Information Technology</span>
-        <h1>Nurdiya Husna Binti Mohd Zaki</h1>
-        <p>Matric Number: 302284 &bull; Universiti Utara Malaysia</p>
-        <nav>
-            <a href="index.html" class="active">Home</a>
-            <a href="hobbies.html">Hobbies</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </div>
-</header>
+<main class="page-wrap">
+    <!-- Top Split Resume Card -->
+    <section class="resume-hero">
+        <div class="hero-left">
+            <span class="role-badge">Linguistics &amp; Information Technology</span>
+            <h1>Nurdiya Husna Binti Mohd Zaki</h1>
+            <p class="subtitle">Contact Number: 013-3909183 &bull; Universiti Utara Malaysia</p>
 
-<main>
-    <section class="card hero-card">
-        <img src="images/profile.JPG" alt="Profile photo of Nurdiya Husna" class="avatar" />
-        <div class="hero-text">
-            <span class="mini-label">About Me</span>
-            <h2>Profile Summary</h2>
-            <p>
-                Undergraduate student combining Linguistics and Information Technology with hands-on
-                experience in desktop/database systems, spreadsheet organization, and student leadership.
-            </p>
+            <ul class="quick-info">
+                <li><strong>Role:</strong> Undergraduate BLIT &amp; Former Residen Siswa</li>
+                <li><strong>Tools:</strong> NetBeans, XAMPP, MySQL, Excel</li>
+                <li><strong>Location:</strong> Jeli, Kelantan, Malaysia</li>
+            </ul>
+
+            <nav class="nav-pills">
+                <a href="index.html" class="nav-btn active">Home</a>
+                <a href="hobbies.html" class="nav-btn">Hobbies</a>
+                <a href="contact.html" class="nav-btn">Contact</a>
+            </nav>
+        </div>
+
+        <div class="hero-right">
+            <img src="images/profile.JPG" alt="Nurdiya Husna Binti Mohd Zaki" class="hero-photo" />
         </div>
     </section>
 
+    <!-- Summary Card -->
+    <section class="card summary-card">
+        <p>
+            Undergraduate student combining Linguistics and Information Technology with hands-on
+            experience developing a Homestay Management System using NetBeans, XAMPP, and MySQL,
+            proficient in Excel and MySQL, and experienced serving as a Residen Siswa.
+        </p>
+        <div class="card-actions">
+            <a href="hobbies.html" class="action-btn">Explore Hobbies</a>
+            <a href="contact.html" class="action-btn secondary">Contact Me</a>
+        </div>
+    </section>
+
+    <!-- Projects & Leadership -->
     <section class="card">
         <h2>Projects &amp; Leadership</h2>
         <ul class="clean-list">
             <li>
-                <strong>Homestay Management System (Form 5 Project)</strong>
-                <span>Built using NetBeans, XAMPP, and MySQL to manage homestay records and bookings.</span>
+                <strong>Homestay Management System (Form 5)</strong>
+                <span>Developed using NetBeans, XAMPP, and MySQL to manage homestay records and bookings.</span>
             </li>
             <li>
                 <strong>Residen Siswa</strong>
-                <span>Held a student residential role involving coordination, communication, and community support.</span>
+                <span>Held a student residential leadership role supporting residents, coordination, and communication.</span>
             </li>
         </ul>
     </section>
 
+    <!-- Education & Core Skills -->
     <section class="card">
         <h2>Education</h2>
         <ul class="clean-list">
@@ -59,10 +74,8 @@
                 <span>Secondary Education</span>
             </li>
         </ul>
-    </section>
 
-    <section class="card">
-        <h2>Core Skills</h2>
+        <h2 class="mt-sub">Core Skills</h2>
         <div class="tags">
             <span class="tag">NetBeans</span>
             <span class="tag">XAMPP</span>
